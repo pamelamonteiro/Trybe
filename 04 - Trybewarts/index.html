@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+    <h1 class="trybewarts-header-title" id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login" action="" method="">
+      <input class="input-login" type="email" name="email" id="email" placeholder="Email" />
+      <input class="input-login" type="password" name="password" id="password" placeholder="Senha" />
+      <button class="button-login" type="" id="button-login">Entrar</button>
+    </form>
+  </header>
+  <main class="main-style">
+    <form class="evaluation-form-style" id="evaluation-form">
+      <p class="center-div">Formulário de Avaliação</p>
+      <div>
+        <div class="forms-data">
+          <input class="personal-data-input" type="text" id="input-name" placeholder="Nome">
+          <input class="personal-data-input" type="text" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <div class="forms-data">
+          <input class="personal-data-input" type="text" id="input-email" placeholder="Email">
+          <select class="personal-data-input" id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
+      </div>
+      <div class="forms-data display-flex">
+        <div class="forms-family">
+          <label id="label-family">Qual sua família?</label>
+          <div>
+            <input type="radio" name="family" value="Frontend" />
+            Frontend
+          </div>
+          <div>
+            <input type="radio" name="family" value="Backend" />
+            Backend
+          </div>
+          <div>
+            <input type="radio" name="family" value="FullStack" />
+            FullStack
+          </div>
+        </div>
+        <div class="forms-content">
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <br>
+          <input type="checkbox" value="HoFs">HoFs</input>
+          <input type="checkbox" value="Jest">Jest</input>
+          <input type="checkbox" value="Promises">Promises</input>
+          <input type="checkbox" value="React">React</input>
+          <input type="checkbox" value="SQL">SQL</input>
+          <input type="checkbox" value="Python">Python</input>
+        </div>
+      </div>
+      <div class="forms-data">
+        <label id="label-rate">Como você avalia a Trybewarts?</label>
+        <input type="radio" name="rate" value="1">1</input>
+        <input type="radio" name="rate" value="2">2</input>
+        <input type="radio" name="rate" value="3">3</input>
+        <input type="radio" name="rate" value="4">4</input>
+        <input type="radio" name="rate" value="5">5</input>
+        <input type="radio" name="rate" value="6">6</input>
+        <input type="radio" name="rate" value="7">7</input>
+        <input type="radio" name="rate" value="8">8</input>
+        <input type="radio" name="rate" value="9">9</input>
+        <input type="radio" name="rate" value="10">10</input>
+      </div>
+      <div class="forms-data">
+        <label for="textarea" class="textarea">Deixe seu comentário:</label>
+        <textarea id="textarea" maxlength="500"></textarea>
+      </div>
+      <div class="forms-data">
+        <input type="checkbox" id="agreement"></input>
+        <label id="label-infos">Você concorda com o uso das informações acima?</label>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
+      </div>
+    </form>
+    <img id="trybewarts-forms-logo" class="trybewarts-colored-logo" src="images/trybewarts-colored.svg">
+  </main>
+
+  <footer>Direitos reservados à Trybewarts©</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
